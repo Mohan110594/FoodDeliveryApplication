@@ -1,0 +1,54 @@
+.resbutton {
+  padding: 0px 20px;
+  border: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  text-align: center;
+  width:50;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  background-image: url("https://cdn2.vectorstock.com/i/1000x1000/91/41/kawaii-cartoon-food-vector-24379141.jpg");
+  padding: 0 16px;
+}
+
+
+header {
+  background-color: #f5ba13;
+  position: relative;
+  margin: auto -16px;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+header ul {
+  list-style: None;
+  display: flex;
+}
+
+.w3-container{
+  padding-top: 300px;
+  position: absolute;
+}
+
+.w3-container form {
+  display: flex;
+}
+
+
