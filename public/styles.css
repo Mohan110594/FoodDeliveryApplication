@@ -1,10 +1,13 @@
 .resbutton {
-  padding: 0px 20px;
-  border: 0;
-  line-height: 1.5;
-  font-size: 1rem;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-  width:50;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
 }
 * {
   padding: 0;
@@ -16,7 +19,7 @@ html {
 }
 body {
   background: #eee;
-  background-image: url("https://cdn2.vectorstock.com/i/1000x1000/91/41/kawaii-cartoon-food-vector-24379141.jpg");
+  /* background-image: url("https://cdn2.vectorstock.com/i/1000x1000/91/41/kawaii-cartoon-food-vector-24379141.jpg"); */
   padding: 0 16px;
 }
 
@@ -52,3 +55,47 @@ header ul {
 }
 
 
+.image-size {
+  width: 400px;
+  height:400px;
+  border-radius: 8px;
+  background-color:grey;
+  display: flex;
+}
+
+.formi {
+  /* display: flex; */
+  position:relative;
+  text-align: center;
+}
+
+
+.inputStyle {
+  margin:'100px';
+}
+
+.leftGap {
+  margin-left: 12px;
+}
+
+.Recipes {
+    margin-top: 50px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: .5rem;
+  
+
+}
+
+.div-center {
+  margin-top: 2rem;
+  margin-left : 50%;
+  margin-bottom : 5rem;
+}
+
+.textalign {
+  margin-top: 90px;
+  text-align:center;
+  color: orange;
+}
