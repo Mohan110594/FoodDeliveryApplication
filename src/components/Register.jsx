@@ -1,5 +1,6 @@
 import React from "react";
 import { formatDiagnostic } from "typescript";
+import Header from "./Header";
 
 
 function Register() {
@@ -7,6 +8,10 @@ function Register() {
 
     
     return (
+      <div>
+      <div>
+        <Header />
+      </div>
         <div className="container">
       <h1>Hello</h1>
       <form>
@@ -16,6 +21,7 @@ function Register() {
         <button class="btn btn-secondary btn-sm" >Register</button>
         
       </form>
+    </div>
     </div>
     )
 }

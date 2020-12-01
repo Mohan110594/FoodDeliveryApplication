@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 
+
 function orderSuccess(props) {
 
  
@@ -10,7 +11,7 @@ function orderSuccess(props) {
  return (
      <div>
    <div>
-       <Header/>
+       <Header />
     </div>
     <div className="textalign">
        <h2>Order has been placed Successfully.</h2>

@@ -56,8 +56,10 @@ export default function RecipeReviewCard(props) {
 
   const adddish = () => {
     var incre = window.sessionStorage.getItem('increment');
-    window.sessionStorage.setItem('increment',incre+1);
+    incre=incre+1
+    window.sessionStorage.setItem('increment',incre);
     myStorage.setItem(incre, props.label);
+    // console.log(window.sessionStorage)
   }
 
   const handleExpandClick = () => {

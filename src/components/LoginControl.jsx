@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import {BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import {Link } from "react-router-dom"
 
 
@@ -18,7 +18,7 @@ function LoginControl(props) {
     </div>
   }
   else {
-    return <h1>😀</h1>
+    return <h1>Welcome 😀</h1>
   }
 }
 
