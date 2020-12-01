@@ -13,9 +13,10 @@ export default function App() {
     <div>
       <Header/>
       <Switch>
-      <Route exact='true' path="/" component={Restaurant}/>
-      <Route exact='true' path="/logging" component={Login}/>
+      {/* <Route exact='true' path="/" component={Restaurant}/> */}
+      <Route exact='true' path="/" component={Login}/>
       <Route exact='true' path="/register" component={Register}/>
+      <Route exact='true' path="/restaurant" component={Restaurant}/>
       </Switch>
     </div>
     </Router>
