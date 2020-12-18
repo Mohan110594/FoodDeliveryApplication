@@ -22,7 +22,7 @@ Kubernetes - To manage container orchestration.
 
 ### Architecture Diagram:
 
- 
+<img src="goal.png" alt="Laptop creates server that creates appliance" style="width:450px;"> 
 
  
  
